@@ -1,0 +1,15 @@
+<html>
+
+<body>
+    <img id="img" />
+    <script src="https://cdn.socket.io/socket.io-3.0.1.min.js"></script>
+    <script>
+        const socket = io.connect('http://localhost:8080');
+        socket.on('image', (image) => {
+            const img = document.getElementById('img');
+            img.src = `data:image/jpeg;base64,${image}`;
+        });
+    </script>
+</body>
+
+</html>

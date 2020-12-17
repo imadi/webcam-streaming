@@ -1,0 +1,24 @@
+{
+  "name": "webcam-streaming",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imadi/webcam-streaming.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imadi/webcam-streaming/issues"
+  },
+  "homepage": "https://github.com/imadi/webcam-streaming#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "opencv4nodejs": "^5.6.0",
+    "socket.io": "^3.0.4"
+  }
+}
